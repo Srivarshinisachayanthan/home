@@ -1,0 +1,51 @@
+.Home {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: white;
+  width: 200vh;
+  height: 100vh;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  color: black;
+}
+
+.Home p, .Home button {
+  margin: 10px;
+}
+
+.Home button {
+  padding: 5px;
+}
+
+.Home .logoutbtn {
+  border: 1px solid red;
+  background-color: white;
+  padding: 10px 7px;
+  border-radius: 4px;
+  color: red;
+}
+
+.Home .logoutbtn a {
+  width: 100%;
+  text-decoration: none;
+  color: red;
+}
+
+.Home .checkwheather {
+  width: 300px;
+  padding: 10px;
+  color: white;
+  background-color: aqua;
+  border: 0px;
+  border-radius: 5px;
+}
+/*# sourceMappingURL=index.css.map */
